@@ -1,0 +1,77 @@
+body {
+  background-color: #f8f8f8;
+  padding-bottom: 80px;
+}
+
+/* HEADER */
+.hero {
+  background-color: #b71c1c;
+  color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+/* JUDUL SECTION */
+.section-title {
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+/* KATEGORI */
+.category-card {
+  border: 1px solid #b71c1c;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* MENU */
+.menu-scroll {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.menu-card {
+  min-width: 160px;
+  background-color: #b71c1c;
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 10px;
+}
+
+.menu-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* NAVBAR BAWAH */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 14px;
+  color: #b71c1c;
+}
